@@ -194,10 +194,31 @@ button:hover {
     .score {
         flex-direction: column;
         gap: 60px;
+        padding: 10px;
     }
 
     .home-buttons, .away-buttons {
-        padding: 15px;
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+
+    .rounds {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+        margin: 40px auto;
+    }
+
+    .delete-buttons {
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .clearAll {
+        width: 100%;
     }
 }
 
